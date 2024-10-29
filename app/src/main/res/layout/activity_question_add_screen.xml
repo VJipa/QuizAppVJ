@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorGray"
+    android:padding="16dp"
+    tools:context=".QuestionAddScreen">
+
+    <EditText
+        android:id="@+id/edit_text_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the question"/>
+
+    <EditText
+        android:id="@+id/edit_text_option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter option 1"/>
+
+    <EditText
+        android:id="@+id/edit_text_option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter option 2"/>
+
+    <EditText
+        android:id="@+id/edit_text_option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter option 3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Varianta de raspuns corecta:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_correct_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/correct_answers"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dificultatea:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_difficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/difficulty_levels"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoria:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/categories" />
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_back_to_starting_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go back to Starting Screen"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

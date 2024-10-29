@@ -1,0 +1,20 @@
+
+<resources>
+    <string-array name="correct_answers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="difficulty_levels">
+        <item>Usora</item>
+        <item>Medie</item>
+        <item>Avansata</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Programare</item>
+        <item>Biologie</item>
+        <item>Istorie</item>
+    </string-array>
+</resources>
